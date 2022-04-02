@@ -357,6 +357,7 @@ footer .footer__bottom {
 
     #productos h2 {
        text-align: center;
+       max-width: 250px;
     }
 
     #productos .productos__container div {
@@ -388,6 +389,10 @@ footer .footer__bottom {
 
     #contacto form {
         width: 100%;
+    }
+
+    footer form input[type="email"] {
+        width: 200px;
     }
 
     footer .footer__top {
