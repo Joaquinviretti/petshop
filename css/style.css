@@ -392,7 +392,11 @@ footer .footer__bottom {
     }
 
     footer form input[type="email"] {
-        width: 200px;
+        flex: 3;
+    }
+
+    footer form input[type="submit"] {
+        flex: 1;
     }
 
     footer .footer__top {
